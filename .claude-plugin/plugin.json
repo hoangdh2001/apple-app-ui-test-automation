@@ -1,0 +1,38 @@
+{
+  "name": "apple-ui-test-automation",
+  "version": "0.1.0",
+  "description": "AI-driven UI test automation for iOS, iPadOS, and macOS apps — runs on simulators and real targets via xcodebuildmcp and AXe CLI.",
+  "author": {
+    "name": "hoangdh2001",
+    "url": "https://github.com/hoangdh2001"
+  },
+  "repository": "https://github.com/hoangdh2001/apple-app-ui-test-automation",
+  "homepage": "https://github.com/hoangdh2001/apple-app-ui-test-automation#readme",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "macos",
+    "xcode",
+    "ui-testing",
+    "automation",
+    "simulator",
+    "xctest",
+    "apple"
+  ],
+  "category": "Code Quality & Testing",
+  "agents": [
+    "./agents/ios-ui-automation-tester.md",
+    "./agents/iphone-tester.md",
+    "./agents/ipad-tester.md",
+    "./agents/macos-tester.md"
+  ],
+  "commands": [
+    "./skills/verify-cli-env/SKILL.md",
+    "./skills/load-test-cases/SKILL.md",
+    "./skills/select-iphone-simulator/SKILL.md",
+    "./skills/select-ipad-simulator/SKILL.md",
+    "./skills/select-mac-target/SKILL.md",
+    "./skills/run-test-case/SKILL.md",
+    "./skills/generate-test-report/SKILL.md"
+  ]
+}

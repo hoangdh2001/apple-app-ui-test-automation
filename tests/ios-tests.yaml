@@ -1,0 +1,28 @@
+suite: Sample iOS Test Suite
+version: 1.0
+cases:
+  - id: launch-and-verify-home
+    name: "Launch app and verify home screen"
+    feature: "Home"
+    steps:
+      - navigate: Home
+    expect:
+      - ui_contains: "Home"
+
+  - id: navigate-to-settings
+    name: "Navigate to Settings tab"
+    feature: "Settings"
+    steps:
+      - navigate: Settings
+    expect:
+      - ui_contains: "Settings"
+
+  - id: tap-and-verify
+    name: "Tap a button and verify result"
+    feature: "Home > Actions"
+    steps:
+      - navigate: Home
+      - tap: "My Button"
+    expect:
+      - ui_contains: "Success"
+      - element_not_exists: "Error"
