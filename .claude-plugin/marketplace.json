@@ -7,7 +7,11 @@
   "plugins": [
     {
       "name": "apple-ui-test-automation",
-      "source": ".",
+      "source": {
+        "type": "github",
+        "repo": "hoangdh2001/apple-app-ui-test-automation",
+        "ref": "main"
+      },
       "description": "AI-driven UI test automation for iOS, iPadOS, and macOS apps — powered by Claude Code, xcodebuildmcp, and AXe CLI.",
       "version": "0.1.0",
       "keywords": ["ios", "macos", "xcode", "ui-testing", "automation", "simulator", "xctest", "apple"],
