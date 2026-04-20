@@ -26,13 +26,5 @@
     "./agents/ipad-tester.md",
     "./agents/macos-tester.md"
   ],
-  "commands": [
-    "./skills/verify-cli-env/SKILL.md",
-    "./skills/load-test-cases/SKILL.md",
-    "./skills/select-iphone-simulator/SKILL.md",
-    "./skills/select-ipad-simulator/SKILL.md",
-    "./skills/select-mac-target/SKILL.md",
-    "./skills/run-test-case/SKILL.md",
-    "./skills/generate-test-report/SKILL.md"
-  ]
+  "skills": "./skills"
 }
